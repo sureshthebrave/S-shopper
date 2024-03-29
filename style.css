@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+/* navbar section start */
+
+span i{
+    font-size: 20px;
+    position: relative;
+    left: -25px;
+    top: 4px;
+}
+
+
+.n{
+    background-color: rgb(187, 0, 87);
+}
+
+
+.nav-item .nav-link:hover{
+    color: orange;
+    transition: 0.4s;
+}
+
+.nav-item .nav-link{
+    color: black;
+    font-weight: bold;
+}
+
+/* navbar section end */
+
+/* carousel section start */
+
+
+.carousel-inner .carousel-item img{
+    width: 100%;
+    height: 500px;
+}
+
+/* carousel section end */
+
+
+/* footer section start */
+
+
+.f{
+    background-color: rgba(113, 102, 102, 0.748);
+    height: 350px;
+}
+
+/* footer section end */
+
+
+@media screen and (max-width:400px){
+    .f{
+        background-color:  rgba(113, 102, 102, 0.748);
+        height: 800px;
+    }
+}
